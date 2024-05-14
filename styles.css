@@ -1,0 +1,139 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.banner{
+    font-family: Navilu;
+    font-size: 30px;
+    position: relative;
+    justify-content: center;
+    background-image: url("camping gear website/Resources/images/crater-7633035_640.png");
+    align-items: center;
+}
+.navbar ul li{list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: green;
+    text-transform: uppercase;
+}
+.content{
+    width: 1200px;
+    height: auto;
+    right: 70px;
+    margin: auto;
+    color: deeppink;
+    position: relative;
+
+}
+.content .par{
+    padding-left-:20px ;
+    padding-bottom: 25px;
+    font-family: sans-serif;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+.content h1{
+    font-family: "Abyssinica SIL";
+    font-size: 50px;
+    padding-left: 50px;
+    margin-top: 9px;
+}
+.content .cn{
+    width: 100px;
+    height: 40px;
+    background-color: black;
+    margin-bottom:30px ;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+.content .cn a{
+    text-decoration:none ;
+    color: aqua;
+}
+.content.cn:hover{
+    background-color: green;
+    color: gold;
+}
+.content span{
+    color: gold;
+    font-size: 60px;
+}
+.form{
+    width: 300px;
+    height: 300px;
+    background-color: dimgray;
+    +
+
+    position: absolute;
+    top: 20px;
+    left: 900px;
+    border-radius: 10px;
+    padding-left: 25px;
+}
+.form h2{
+    width:250px ;
+    font-family:Chandas ;
+    text-align: center;
+   color: grey;
+    font-size: 14px;
+    background-color : white;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 2px;
+}
+.form input{    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+      width: 240px;
+    height: 35px;
+    background-color: transparent;
+    border-radius: 10px;
+    color: darkorange;
+    font-size: 15px;
+    letter-spacing: 1px;
+
+}
+.form input :focus{
+    outline: none;
+}
+::placeholder{
+    color: black;
+    font-family: aakar;
+}
+.btn{
+    width: 240px;
+    height: 40px;
+   b
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+   border-radius: 10px;
+    cursor: pointer;
+    color: black;
+}
+.btn :hover{
+    background-color:yellow;
+    color: white;
+}
+.btn a{
+    text-decoration: yellow;
+    color: crimson;
+    font-weight: bold;
+}
+.form .link{
+    font-family: sans-serif;
+    font-size: 12px;
+    padding-top: 20px;
+    text-align: center;
+}
+.form .link a{
+    text-decoration: none;
+    color: black;
+}
